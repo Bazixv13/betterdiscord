@@ -1,7 +1,7 @@
 /**
 
  * @name !darklight, all in one
- * @version 1.3
+ * @version 1.4
  * @description Aby mieć wszytkie zmiany musisz mieć Everyfing offline, Stting i tolbar aby to zrobić kliknij globus poniżej
  (opcje customizcji są na dole)
  * @author -_-
@@ -223,3 +223,42 @@ background-color:   #111111;
     background-color:rgb(123, 0, 255);/*←←←←To możesz edytować(to w nawiasach)*/
     color: #000000;/*←←←←Tego nie edytuj*/
 }
+
+
+/*discord button pinned*/
+.guilds-1SWlCJ .tree-2wKJdG:focus {
+  outline-color: transparent;
+}
+.guilds-1SWlCJ .scroller-1Bvpku {
+  contain: unset;
+  margin-top: 56px;
+}
+.guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-2sGCg9 {
+  position: fixed;
+  transform: translatey( -100% );
+}
+
+/*dm list chnge size*/
+
+:root { --sidebar-initial-width: 240px; }
+.sidebar-2K8pFh {
+    resize: horizontal;
+    width: var(--sidebar-initial-width);
+}
+.sidebar-2K8pFh .channel-2QD9_O { max-width: unset; }
+.bannerImage-3KhIJ6 { width: 100%; }
+
+.button-38aScr lookBlank-3eh9lL colorBrand-3pXr91 grow-q77ONN
+.buttonWrapper-1ZmCpA
+.contents-18-Yxp button-3AYNKb translateButton-DhP9x8 button-318s1X{
+    Display:none;
+}
+
+/*No scroolbar*/
+::-webkit-scrollbar { display: none;}.content-1x5b-n { margin: 0 !important; border-radius: 0; }.mainContent-u_9PKf { padding-left: 8px;}.container-2Pjhx- { margin: 0; max-width: unset; }.layout-2DM8Md { border-radius: 0; padding: 0 16px;}.unread-2lAfLh { z-index: 1;} .buttons-3JBrkn { padding-right: 10px !important;}
+
+
+.toolbar-1t6TWx > .iconWrapper-2OrFZ1[role="switch"]:first-child { display: none;}
+
+
+
