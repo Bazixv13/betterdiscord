@@ -2,7 +2,7 @@
 
  * @name !darklight, all in one
  * @version 1.4
- * @description Aby mieć wszytkie zmiany musisz mieć Everyfing offline, Stting i tolbar aby to zrobić kliknij globus poniżej
+ * @description Aby mieć wszytkie zmiany musisz mieć Everyfing offline, Modal Settings i tolbar aby to zrobić kliknij globus poniżej
  (opcje customizcji są na dole)
  * @author -_-
  * @website https://bit.ly/Bazix
@@ -193,6 +193,19 @@ background-color:   #111111;
 .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-2sGCg9 {
   position: fixed;
   transform: translatey( -100% );
+}
+
+
+/*spoiler blur*/
+.spoilerText-3p6IlD,
+.spoilerText-3p6IlD.hidden-HHr2R9 {
+    background-color: transparent !important;
+}
+
+.spoilerText-3p6IlD.hidden-HHr2R9 > .inlineContent-3ZjPuv {
+    opacity: 1 !important;
+    filter: blur(3px);
+    pointer-events: unset;
 }
 
 /*dm list chnge size*/
